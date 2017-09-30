@@ -1,14 +1,16 @@
-WebServer.java
-==============
+# Web Server
+Implemented a Web Server with RPC Service, File Download service and view files on the Web Browser.
 
+
+WebServer.java
+```
 1. Compile & Run WebServer.java
 2. Server started: "listening to port 9000".
 3. Server shows what type of requests coming from the client and sends the appropriate response to the client.
-
+```
 
 WebClient.java
-==============
-
+```
 1. Compile & Run the WebClient.java
 
 2. A menu driven interface appears:
@@ -60,10 +62,10 @@ WebClient.java
 	Response to Client: 
 
 			Stock :Microsoft Price: Rs 100
+```
 
-
-EXTENSION IN LAB 3b:
-
+EXTENSION :
+```
 -Session management is incorporated in server. 
 
 -checkOut() method would commit all the BUY and SELL transactions performed with the server.
@@ -71,3 +73,4 @@ EXTENSION IN LAB 3b:
 
 -totalStocks(String symbol) method returns the total stocks bought(committed) for given stockSymbol.
 	func=totalStocks&symbol=Microsoft
+```
