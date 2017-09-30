@@ -44,7 +44,8 @@ WebClient.java
 	Enter Service Name: Stock
 	Enter Function Name and Parameters as func=<method name> & <var name>=<value>: func=checkStockPrice&symbol=Microsoft
 										       or
-										       func=buy&symbol=Microsoft&qty=20					   							       or
+										       func=buy&symbol=Microsoft&qty=20
+										       or
 										       func=sell&symbol=Microsoft&qty=20
 										       
 	Enter Host Name/Address: localhost
