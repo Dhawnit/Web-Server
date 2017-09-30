@@ -43,25 +43,23 @@ WebClient.java
 	
 	Enter Service Name: Stock
 	Enter Function Name and Parameters as func=<method name> & <var name>=<value>: func=checkStockPrice&symbol=Microsoft
-																				   or
-																				   func=buy&symbol=Microsoft&qty=20
-																				   or
-																				   func=sell&symbol=Microsoft&qty=20
-
+										       or
+										       func=buy&symbol=Microsoft&qty=20					   							       or
+										       func=sell&symbol=Microsoft&qty=20
+										       
 	Enter Host Name/Address: localhost
-	Enter Port no: 9000 
+	Enter Port no: 9000
 
 	POST request visible at Server: (Simulated by Client Manually)
 
-			POST /JAVA/Stock HTTP/1.0
-			Content-Length: 37
-			Content-Type: application/x-www-form-urlencoded
+	POST /JAVA/Stock HTTP/1.0
+	Content-Length: 37
+	Content-Type: application/x-www-form-urlencoded
+	
+	func=checkStockPrice&symbol=Microsoft
 
-			func=checkStockPrice&symbol=Microsoft
-
-	Response to Client: 
-
-			Stock :Microsoft Price: Rs 100
+	Response to Client:
+	Stock :Microsoft Price: Rs 100
 ```
 
 EXTENSION :
